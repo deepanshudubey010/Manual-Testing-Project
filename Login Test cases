@@ -1,17 +1,22 @@
-# Login Functionality – Test Cases
+# Login Test Cases
 
-## Project Name
-E-commerce Website
+## Application
+SauceDemo - https://www.saucedemo.com/
 
 ## Module
 Login
 
-| Test Case ID | Test Scenario | Test Steps | Test Data | Expected Result |
-|---|---|---|---|---|
-| TC_01 | Login with valid credentials | Enter valid username and password, then click Login | Valid credentials | User should log in successfully |
-| TC_02 | Login with invalid username | Enter an invalid username and valid password, then click Login | Invalid username, valid password | An appropriate error message should appear |
-| TC_03 | Login with invalid password | Enter a valid username and invalid password, then click Login | Valid username, invalid password | An appropriate error message should appear |
-| TC_04 | Login with both fields empty | Leave username and password empty, then click Login | Both fields blank | Required-field validation should appear |
-| TC_05 | Login with empty username | Leave username empty, enter a password, then click Login | Blank username, valid password | Username validation should appear |
-| TC_06 | Login with empty password | Enter a username, leave password empty, then click Login | Valid username, blank password | Password validation should appear |
+| Test Case ID | Test Scenario | Test Steps | Expected Result | Actual Result | Status |
+|---|---|---|---|---|---|
+| TC_01 | Valid login | Enter standard_user and secret_sauce, then click Login | User should log in successfully | User logged in successfully | Pass |
+| TC_02 | Invalid username | Enter an invalid username and valid password | Error message should appear | Not tested | Not Run |
+| TC_03 | Invalid password | Enter standard_user and wrong123 | Error message should appear | Username and password do not match any user in the service | Pass |
+| TC_04 | Both fields empty | Click Login without entering details | Required field validation should appear | Not tested | Not Run |
+| TC_05 | Empty username | Enter secret_sauce as password and leave username empty | Username required message should appear | Username is required | Pass |
+| TC_06 | Empty password | Enter standard_user and leave password empty | Password required message should appear | Password is required | Pass |
+| TC_07 | Locked user | Enter locked_out_user and secret_sauce | Login should be blocked with an error message | User was blocked with a locked-out message | Pass |
 
+## Notes
+- Testing was performed manually on SauceDemo.
+- Pass status is based on the observed result matching the expected result.
+- Test cases marked Not Run have not been executed.
