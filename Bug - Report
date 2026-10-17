@@ -1,0 +1,21 @@
+# Bug Report – E-commerce Website
+
+## Bug 1: Login Button Not Working
+
+- **Bug ID:** BUG_001
+- **Bug Title:** Login button does not respond when clicked
+- **Module:** Login
+- **Severity:** High
+- **Priority:** High
+- **Precondition:** User is on the login page.
+
+### Steps to Reproduce
+1. Open the login page.
+2. Enter valid username and password.
+3. Click the Login button.
+
+### Expected Result
+The user should log in successfully.
+
+### Actual Result
+Nothing happens after clicking the Login button.
