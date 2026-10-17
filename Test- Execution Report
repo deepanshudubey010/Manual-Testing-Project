@@ -2,26 +2,28 @@
 
 ## 1. Project Information
 - **Project Name:** E-commerce Website
-- **Module:** Login
+- **Application:** SauceDemo
 - **Testing Type:** Manual Testing
-- **Execution Status:** Practice
-- **Environment:** Not specified
+- **Module:** Login
+- **Execution Date:** 17 October 2026
 
-## 2. Test Execution Summary
+## 2. Test Execution Results
 
 | Test Case ID | Test Scenario | Expected Result | Actual Result | Status |
 |---|---|---|---|---|
-| TC_01 | Login with valid credentials | Login should be successful | Not executed | Not Run |
-| TC_02 | Login with invalid username | Error message should appear | Not executed | Not Run |
-| TC_03 | Login with invalid password | Error message should appear | Not executed | Not Run |
-| TC_04 | Login with empty fields | Validation messages should appear | Not executed | Not Run |
-| TC_05 | Login with empty username | Username validation should appear | Not executed | Not Run |
-| TC_06 | Login with empty password | Password validation should appear | Not executed | Not Run |
+| TC_01 | Login with valid credentials | User should log in successfully | User logged in successfully | PASS |
+| TC_03 | Login with invalid password | Error message should appear | Username and password do not match any user in the service | PASS |
+| TC_05 | Login with empty username | Username validation should appear | Username is required | PASS |
+| TC_06 | Login with empty password | Password validation should appear | Password is required | PASS |
+| TC_07 | Login with locked user | Login should be prevented with an error message | Sorry, this user has been locked out | PASS |
 
-## 3. Summary
-- Total Test Cases: 6
-- Passed: 0
+## 3. Execution Summary
+
+- Total Executed Test Cases: 5
+- Passed: 5
 - Failed: 0
-- Not Run: 6
+- Not Run: 1
 
 ## 4. Remarks
+
+The above test cases were executed manually on the SauceDemo practice website. Results were recorded based on observed application behaviour.
