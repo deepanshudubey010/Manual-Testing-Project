@@ -1,29 +1,35 @@
 # Test Execution Report
 
-## 1. Project Information
-- **Project Name:** E-commerce Website
-- **Application:** SauceDemo
-- **Testing Type:** Manual Testing
-- **Module:** Login
-- **Execution Date:** 17 October 2026
+## Project Details
+- Project: SauceDemo E-commerce Website
+- Testing Type: Manual Testing
+- Test Environment: Web Browser
+- Execution Date: 17 October 2026
 
-## 2. Test Execution Results
+## Execution Summary
 
-| Test Case ID | Test Scenario | Expected Result | Actual Result | Status |
-|---|---|---|---|---|
-| TC_01 | Login with valid credentials | User should log in successfully | User logged in successfully | PASS |
-| TC_03 | Login with invalid password | Error message should appear | Username and password do not match any user in the service | PASS |
-| TC_05 | Login with empty username | Username validation should appear | Username is required | PASS |
-| TC_06 | Login with empty password | Password validation should appear | Password is required | PASS |
-| TC_07 | Login with locked user | Login should be prevented with an error message | Sorry, this user has been locked out | PASS |
+| Metric | Count |
+|---|---:|
+| Total Test Cases | 7 |
+| Executed | 5 |
+| Passed | 5 |
+| Failed | 0 |
+| Not Run | 2 |
 
-## 3. Execution Summary
+## Test Execution Results
 
-- Total Executed Test Cases: 5
-- Passed: 5
-- Failed: 0
-- Not Run: 1
+| Test Case ID | Scenario | Status |
+|---|---|---|
+| TC_01 | Valid Login | Pass |
+| TC_02 | Invalid Username | Not Run |
+| TC_03 | Invalid Password | Pass |
+| TC_04 | Both Fields Empty | Not Run |
+| TC_05 | Empty Username | Pass |
+| TC_06 | Empty Password | Pass |
+| TC_07 | Locked User | Pass |
 
-## 4. Remarks
+## Conclusion
+Five test cases were executed and passed. Two test cases remain unexecuted. No failures were observed among the executed test cases.
 
-The above test cases were executed manually on the SauceDemo practice website. Results were recorded based on observed application behaviour.
+## Note
+This report reflects the test results observed during practice testing on SauceDemo.
