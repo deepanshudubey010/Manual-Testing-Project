@@ -1,0 +1,17 @@
+# Login Functionality – Test Cases
+
+## Project Name
+E-commerce Website
+
+## Module
+Login
+
+| Test Case ID | Test Scenario | Test Steps | Test Data | Expected Result |
+|---|---|---|---|---|
+| TC_01 | Login with valid credentials | Enter valid username and password, then click Login | Valid credentials | User should log in successfully |
+| TC_02 | Login with invalid username | Enter an invalid username and valid password, then click Login | Invalid username, valid password | An appropriate error message should appear |
+| TC_03 | Login with invalid password | Enter a valid username and invalid password, then click Login | Valid username, invalid password | An appropriate error message should appear |
+| TC_04 | Login with both fields empty | Leave username and password empty, then click Login | Both fields blank | Required-field validation should appear |
+| TC_05 | Login with empty username | Leave username empty, enter a password, then click Login | Blank username, valid password | Username validation should appear |
+| TC_06 | Login with empty password | Enter a username, leave password empty, then click Login | Valid username, blank password | Password validation should appear |
+
