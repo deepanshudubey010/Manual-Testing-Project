@@ -1,23 +1,18 @@
-# Product and Cart Testing
+# Product and Cart Test Cases
 
-## Project Information
-- **Project Name:** E-commerce Website
-- **Application:** SauceDemo
-- **Testing Type:** Manual Testing
-- **Module:** Product Listing and Shopping Cart
+## Application
+SauceDemo - https://www.saucedemo.com/
 
 ## Test Cases
 
-| Test Case ID | Test Scenario | Test Steps | Expected Result | Actual Result | Status |
-|---|---|---|---|---|---|
-| TC_08 | Verify product display | Login and view the products page | Product names, images and prices should display correctly | Products were displayed correctly | PASS |
-| TC_09 | Verify Add to Cart | Click Add to Cart for a product and open the cart | Selected product should appear in the cart | Product was added successfully | PASS |
-| TC_10 | Verify Remove from Cart | Click Remove for the selected product | Selected product should be removed from the cart | Product was removed successfully | PASS |
+| Test Case ID | Test Scenario | Expected Result | Actual Result | Status |
+|---|---|---|---|---|
+| TC_08 | Verify products displayed | Products, names, images and prices should be displayed | Product details were displayed | Pass |
+| TC_09 | Add product to cart | Selected product should be added to cart | Product was added successfully | Pass |
+| TC_10 | Remove product from cart | Selected product should be removed from cart | Product was removed successfully | Pass |
+| TC_11 | Verify product price in cart | Product price should match the Products page | Price matched on both pages | Pass |
 
-## Execution Summary
-- Total Test Cases: 3
-- Passed: 3
-- Failed: 0
-
-## Remarks
-These test cases were executed manually on the SauceDemo practice website. Results are based on the observed application behaviour.
+## Notes
+- Tests were performed manually on SauceDemo.
+- Pass status is based on observed behavior.
+- This is a practice project for learning Manual Testing.
