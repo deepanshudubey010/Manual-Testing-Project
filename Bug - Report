@@ -1,21 +1,35 @@
-# Bug Report – E-commerce Website
+# Bug Reports
 
-## Bug 1: Login Button Not Working
+## Project
+SauceDemo E-commerce Website
 
-- **Bug ID:** BUG_001
-- **Bug Title:** Login button does not respond when clicked
-- **Module:** Login
-- **Severity:** High
-- **Priority:** High
-- **Precondition:** User is on the login page.
+## Testing Summary
+During the executed test cases, no confirmed bugs were observed.
 
-### Steps to Reproduce
+## Sample Bug Report (Practice Example)
+
+**Bug ID:** BUG_SAMPLE_001
+
+**Title:** Login button does not respond after valid credentials are entered
+
+**Module:** Login
+
+**Severity:** Major (Proposed)
+
+**Priority:** High (Proposed)
+
+**Steps to Reproduce:**
 1. Open the login page.
-2. Enter valid username and password.
+2. Enter valid credentials.
 3. Click the Login button.
 
-### Expected Result
+**Expected Result:**
 The user should log in successfully.
 
-### Actual Result
-Nothing happens after clicking the Login button.
+**Actual Result:**
+For this hypothetical example, the Login button does not respond.
+
+**Status:** Sample Only — Not an Actual Observed Bug
+
+## Note
+The sample bug above is for practice purposes only. It was not observed during testing of SauceDemo.
